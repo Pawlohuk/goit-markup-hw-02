@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,32 +15,32 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="header-nav">
-            <a class="header-na-link" href="./index.html">
+            <a class="header-logo" href="./index.html">
                 Web<span>Studio</span></a>
             <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="">Studio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="header-contact-list">
+                <li class="header-contact-item">
+                    <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <li class="header-contact-item">
+                    <a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
     <main>
-        <section>
-            <h1>Effective Solutions
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions
                 for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button class="hero-buy-btn" type="button">Order Service</button>
         </section>
         <section>
             <h2>Our company</h2>
@@ -67,22 +69,22 @@
             </ul>
         </section>
         <section>
-            <h2>Our Team</h2>
+            <h2 class="team-titel">Our Team</h2>
             <ul>
                 <li>
                     <img src="./images/1.jpg" alt="Mark Guerrero" width="264" />
                     <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <p class="team-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/2.jpg" alt="Tom Ford" width="264" />
                     <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <p class="team-text">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/3.jpg" alt="Camila Garcia" width="264" />
                     <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <p class="team-text">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/4.jpg" alt="Daniel Wilson" width="264" />
