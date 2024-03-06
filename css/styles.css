@@ -1,5 +1,88 @@
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: white;
+    font-family: "Roboto","regular", sans-serif;
+    background-color: #fff;
     color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.logo {
+    color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.header-title-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-contact-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
