@@ -74,10 +74,6 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
-}
 .hero {
   background-color: #2e2f42;
 }
@@ -102,6 +98,24 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+  color: #404bbf;
+}
+
+.company {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list-head {
@@ -142,6 +156,7 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
