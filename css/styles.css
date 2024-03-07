@@ -187,6 +187,7 @@ ol {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -196,7 +197,6 @@ ol {
 }
 
 .footer-logo-color {
-  font-family: "Raleway", sans-serif;
   color: #f4f4fd;
 }
 
