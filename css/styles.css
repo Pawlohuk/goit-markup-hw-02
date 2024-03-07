@@ -83,7 +83,7 @@ ol {
 }
 
 .hero-title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -92,7 +92,7 @@ ol {
 }
 
 .hero-buy-btn {
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
