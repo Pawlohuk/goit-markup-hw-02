@@ -58,8 +58,8 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
