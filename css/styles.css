@@ -63,6 +63,11 @@ ol {
   color: #404bbf;
 }
 
+.header-contact-link-link:hover,
+.header-contact-link-link:focus {
+  color: #404bbf;
+}
+
 .header-title-address {
   font-style: normal;
 }
