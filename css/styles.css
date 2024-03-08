@@ -63,11 +63,6 @@ ol {
   color: #404bbf;
 }
 
-.header-contact-link-link:hover,
-.header-contact-link-link:focus {
-  color: #404bbf;
-}
-
 .header-title-address {
   font-style: normal;
 }
@@ -77,6 +72,11 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-contact-link:focus,
+.header-contact-link:hover {
+  color: #404bbf;
 }
 
 .hero {
