@@ -52,6 +52,11 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.header-contact:hover,
+.header-contact:focus {
+  color: #404bbf;
+}
+
 .hero {
   background-color: #2e2f42;
 }
