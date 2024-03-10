@@ -13,11 +13,6 @@ ol {
   list-style: none;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -31,11 +26,6 @@ ol {
 
 .logo {
   color: #2e2f42;
-}
-
-.nav-list {
-  display: flex;
-  gap: 40px;
 }
 
 .header-menu-link {
