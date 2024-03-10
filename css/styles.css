@@ -102,7 +102,7 @@ ol {
 }
 
 .our-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-titel {
@@ -113,6 +113,7 @@ ol {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-list {
